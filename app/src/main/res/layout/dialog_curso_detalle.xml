@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Imagen del curso -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/ivDialogImagen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="Imagen del curso" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Título del curso -->
+        <TextView
+            android:id="@+id/tvDialogTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Título del curso"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Tipo -->
+        <TextView
+            android:id="@+id/tvDialogTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo: Curso"
+            android:textSize="14sp"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Separador -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Descripción -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDialogDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción del curso"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Enlace -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enlace"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDialogEnlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://ejemplo.com"
+            android:textSize="14sp"
+            android:textColor="#2196F3"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón Ver en navegador -->
+        <Button
+            android:id="@+id/btnVerEnNavegador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver en Navegador"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0E0F0E"
+            android:drawableLeft="@android:drawable/ic_menu_view"
+            android:drawablePadding="8dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botón Cerrar -->
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar"
+            android:textColor="#666666"
+            android:backgroundTint="#E0E0E0"
+            android:padding="12dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</ScrollView>

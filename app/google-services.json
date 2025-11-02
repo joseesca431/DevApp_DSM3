@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636819453505",
+    "project_id": "desafiodsm3",
+    "storage_bucket": "desafiodsm3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636819453505:android:f015d7d232b6b80c9df8c0",
+        "android_client_info": {
+          "package_name": "com.example.desafiodevlearning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA88UX31Y-gt8Em2sWeb34KN4HNDP-_sAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
