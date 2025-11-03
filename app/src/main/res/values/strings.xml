@@ -1,5 +1,85 @@
 <resources>
     <string name="app_name">DesafioDevLearning</string>
+
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+    <string name="save">Guardar</string>
+    <string name="update">Actualizar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+
+    <!-- Login Activity -->
+    <string name="login">Login</string>
+    <string name="login_title">INICIAR SESIÓN</string>
+    <string name="start">EMPEZAR</string>
+    <string name="dont_have_account">¿No tienes cuenta? Regístrate</string>
+    <string name="login_success">Inicio de sesión exitoso</string>
+    <string name="login_error">Error al iniciar sesión</string>
+    <string name="email_password_empty">Email y contraseña no pueden estar vacíos</string>
+
+    <!-- Register Activity -->
+    <string name="register">Registrarse</string>
+    <string name="register_title">INICIAR SESIÓN</string>
+    <string name="full_name">Nombre Completo</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="already_have_account">¿No tienes cuenta? Regístrate</string>
+    <string name="register_success">Registro exitoso</string>
+    <string name="register_error">Error al registrar</string>
+    <string name="name_empty">El nombre no puede estar vacío</string>
+    <string name="password_mismatch">Las contraseñas no coinciden</string>
+    <string name="password_min_length">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="motivation_text">Aprende algo nuevo cada día, nunca es tarde para comenzar</string>
+
+    <!-- Main Activity -->
+    <string name="welcome">Bienvenido</string>
+    <string name="welcome_user">Bienvenido, %1$s</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="add_course">Agregar curso</string>
+    <string name="search_hint">Buscar por título…</string>
+    <string name="courses_error">Error al obtener los cursos</string>
+    <string name="course_deleted">Curso eliminado</string>
+    <string name="delete_error">Error al eliminar curso</string>
+
+    <!-- Course Item -->
+    <string name="course_image">Imagen del curso</string>
+    <string name="edit_course">Editar</string>
+    <string name="delete_course">Eliminar</string>
+
+    <!-- Create Course Activity -->
+    <string name="create_course">Crear Curso</string>
+    <string name="course_title">Título</string>
+    <string name="course_title_hint">Ingrese el título del curso</string>
+    <string name="course_description">Descripción</string>
+    <string name="course_description_hint">Ingrese la descripción del curso</string>
+    <string name="course_type">Tipo</string>
+    <string name="course_type_hint">Ej: curso, documentación, tutorial</string>
+    <string name="course_link">Enlace</string>
+    <string name="course_link_hint">URL del curso (opcional)</string>
+    <string name="course_image_url">Imagen</string>
+    <string name="course_image_hint">URL de la imagen (opcional)</string>
+    <string name="save_course">Guardar Curso</string>
+    <string name="required_fields">* Campos obligatorios</string>
+    <string name="complete_required_fields">Por favor completa todos los campos obligatorios</string>
+    <string name="course_created">Curso creado exitosamente</string>
+    <string name="create_course_error">Error al crear el curso</string>
+
+    <string name="update_course_title">Editar Curso</string>
+    <string name="update_course_button">Actualizar Curso</string>
+    <string name="course_updated">Curso actualizado correctamente</string>
+    <string name="update_course_error">Error al actualizar el curso</string>
+
+    <string name="course_detail">Detalle del Curso</string>
+    <string name="course_type_label">Tipo: %1$s</string>
+    <string name="description_label">Descripción</string>
+    <string name="link_label">Enlace</string>
+    <string name="view_in_browser">Ver en Navegador</string>
+    <string name="link_not_available">Enlace no disponible</string>
+    <string name="no_link">No disponible</string>
+
+    <string name="confirm_delete">Confirmar eliminación</string>
+    <string name="confirm_delete_message">¿Estás seguro de eliminar \'%1$s\'?</string>
+
+    <string name="search_icon">Buscar</string>
 </resources>
